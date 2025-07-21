@@ -1,61 +1,84 @@
+---
+# NOTE: Save this file as `README.md` in the root of a public GitHub repository and enable **GitHub Pages → Source: main branch**. GitHub will render it as your personal site.
+# No extra build steps, Jekyll, or HTML needed.
+#
+# Dor Weinstock – Senior DevOps / MLOps Engineer
+---
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Dor Wein
-================================================================================================================================
+# Dor Weinstock – Senior DevOps & MLOps Engineer
 
-Devops Engineer
----------------
+**LinkedIn:** <https://www.linkedin.com/in/dor‑weinstock>  •  **GitHub:** <https://github.com/dor‑weinstock>  •  **Email:** dor.weinstock@gmail.com  •  **Tel:** +972‑54‑000‑0000
 
-I've been working as a DevOps engineer for the past 8 years, through Military to Fintech companies, to healthcare and water saving.
+## Quick Profile
 
-* 🌍  I'm based in Israel
-* ✉️  You can contact me at [dor.vinsh@gmail.com](mailto:dor.vinsh@gmail.com)
-* 🧠  I'm learning GO programming language
-* 🤝  I'm open to collaborating on Crypto projects
+Seasoned DevOps & MLOps engineer who automates everything, keeps clusters healthy, and ships ML to production **safely** and **repeatably**.
 
-### Skills
+* 8 years building cloud‑native infrastructure on AWS, GCP & on‑prem.
+* Deep Kubernetes expertise (CKA, CKAD); GitOps advocate (Argo CD, Flux).
+* Scaled GPU fleets for computer‑vision & LLM training to **$‑optimal** utilisation.
+* Passionate about clean CI/CD, observability, and security‑by‑default.
 
+## Core Strengths
 
-<p align="left">
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash.svg" width="36" height="36" alt="GNU Bash" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg" width="36" height="36" alt="VS Code" /></a><a href="https://www.vim.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vim.svg" width="36" height="36" alt="Vim" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored-dark.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a><a href="https://apple.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored-dark.svg" width="36" height="36" alt="MacOS" /></a><a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" width="36" height="36" alt="TensorFlow" /></a>
-</p>
+* **Infrastructure‑as‑Code:** Terraform, Pulumi, AWS CDK, CloudFormation.
+* **Containers & Orchestration:** Docker, Buildpacks, Kubernetes, Helm, Kustomize.
+* **CI/CD:** GitHub Actions, Jenkins, GitLab CI, Tekton; blue‑green & canary.
+* **ML Tooling:** SageMaker, MLflow, Kubeflow, BentoML, Ray, NVIDIA NGC.
+* **Observability:** Prometheus, Grafana, OpenTelemetry, Loki, Jaeger.
+* **Security & Compliance:** Zero Trust, IAM least‑privilege, SOC 2 pipelines.
 
+## Highlight Projects
 
-### Socials
+### Unified ML Platform on AWS
+* Designed EKS‑based platform powering end‑to‑end life‑cycle: experimentation → training → serving.
+* Automated cluster bootstrap with Terraform & Argo CD; spin‑up time < 15 min.
+* Integrated MLflow, feature store, model registry, and on‑demand GPU nodes via Karpenter.
 
-<p align="left"> <a href="https://www.github.com/Dorivin" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a></p>
+### GitOps for 200+ Microservices
+* Migrated legacy Jenkins pipelines to GitHub Actions + Argo CD syncs.
+* Achieved < 10‑minute mean time‑to‑production with full rollback safety.
 
-### Badges
+### Cost‑Aware GPU Autoscaler
+* Wrote custom K8s controller that uses Prometheus metrics to right‑size GPU VM pools.
+* Saved **30 %** monthly compute spend while keeping SLA‑critical latency.
 
-<b>My GitHub Stats</b>
+## Experience
 
-<a href="http://www.github.com/Dorivin"><img src="https://github-readme-stats.vercel.app/api?username=Dorivin&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="Dorivin's GitHub stats" /></a>
+**Senior DevOps & MLOps Engineer — Noma Security**  *(2023 → Present)*
+* Own build‑run‑observe loop for high‑throughput security analytics pipelines.
+* Introduced OpenTelemetry tracing and slashed p99 latency by 40 %.
+* Led migration to eBPF‑based networking (Cilium) for better throughput & policy.
 
-<a href="http://www.github.com/Dorivin"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Dorivin&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+**DevOps Engineer — Intel AI Lab**  *(2019 → 2023)*
+* Maintained multi‑cluster Kubernetes footprint (500+ nodes) across regions.
+* Automated FPGA & GPU workload placement with custom mutating admission webhooks.
+* Championed GitOps culture; mentored 12 engineers on Terraform best practices.
 
-<a href="http://www.github.com/Dorivin"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=Dorivin&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+## Certifications
 
-### Support Me
+* AWS Solutions Architect – Professional
+* Certified Kubernetes Administrator (CKA)
+* Certified Kubernetes Security Specialist (CKS)
+* HashiCorp Terraform Associate
 
-<ul style="list-style-type: none; margin: 0;">
+## Talks & Publications
 
-<li style="display: inline-block; margin-right: 0.25rem;"><a href="https://www.buymeacoffee.com/Dorivin"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150"/></a></li>
+* **DevOpsDays TLV (2024):** “Kubernetes Cost Optimisation at Scale”.
+* **HashiTalks (2023):** “Multi‑Account Terraform Workflows for Regulated Environments”.
+* Numerous blog posts on containers, observability, and MLOps best practices — see [blog](https://medium.com/@dor‑weinstock).
 
-<li style="display: inline-block; margin-right: 0.25rem;"><a href="https://www.ko-fi.com/Dorivin"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" width="150"/></a></li>
+## Open Source Contributions
 
-</ul>
+* Core maintainer — *k8s‑terraform‑modules* (3k ⭐) & *argo‑bluegreen‑plugin*.
+* PRs to Prometheus‑Adapter, Karpenter, and MLflow.
 
+## Let’s Connect
 
-<!--
-**Dorivin/Dorivin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m always happy to chat about DevOps, MLOps, startups, and crazy infrastructure challenges.
 
-Here are some ideas to get you started:
+```bash
+# Fastest way to reach me
+curl https://dor‑weinstock.dev/coffee → lets‑talk
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<sub>© 2025 Dor Weinstock — built with ❤️ & GitHub Pages.</sub>
