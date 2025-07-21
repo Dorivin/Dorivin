@@ -1,10 +1,3 @@
----
-# NOTE: Save this file as `README.md` in the root of a public GitHub repository and enable **GitHub Pages → Source: main branch**. GitHub will render it as your personal site.
-# No extra build steps, Jekyll, or HTML needed.
-#
-# Dor Weinstock – Senior DevOps / MLOps Engineer
----
-
 # Dor Weinstock – Senior DevOps & MLOps Engineer
 
 **LinkedIn:** <https://www.linkedin.com/in/dor‑weinstock>  •  **GitHub:** <https://github.com/dor‑weinstock>  •  **Email:** dor.weinstock@gmail.com  •  **Tel:** +972‑54‑000‑0000
